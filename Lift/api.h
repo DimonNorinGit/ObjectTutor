@@ -1,0 +1,1 @@
+enum LiftState{MOVE , WAITING , SET , REMOVE};

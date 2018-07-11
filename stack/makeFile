@@ -1,0 +1,10 @@
+start: stack.o sourse.o
+	g++ -o start  stack.o sourse.o
+
+sourse.o: sourse.cpp stack.h
+	g++ -c sourse.cpp
+
+stack.o: stack.cpp stack.h
+	g++ -c stack.cpp
+clean:
+	rm -rf *.o

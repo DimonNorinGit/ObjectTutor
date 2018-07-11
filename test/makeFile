@@ -1,0 +1,6 @@
+start: sourse.o
+	g++ -o start  sourse.o
+sourse.o:sourse.cpp
+	g++ -c sourse.cpp
+clean:
+	rm -rf *.o
